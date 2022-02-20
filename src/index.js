@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App catApiUrl="https://catfact.ninja/fact" />
   </React.StrictMode>,
   document.getElementById("root")
 );
